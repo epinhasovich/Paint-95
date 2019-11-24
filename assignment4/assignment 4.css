@@ -1,0 +1,80 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    top: 0;
+    bottom: 0;
+}
+
+#board {
+    height: 500px;
+    width: 500px;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    overflow: hidden;    
+    position: absolute;     
+    left: 35%;
+    top: 15%;
+}
+
+.toolbar {
+    height: 100vh;
+    width: 150px;
+    background-color: rgb(192, 192, 192);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: ridge 5px white;
+    position: absolute;
+}
+
+button {
+    height: 50px;
+    width: 87px;
+}
+
+#white {
+    background-image: url(./pics/kissclipart-eraser-png-clipart-eraser-clip-art-7184a6c2c2acca76.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 57px;
+    height: 50px;
+}
+
+#options {
+    padding-top: 25px;
+    padding-left: 25px;
+    margin-bottom: 24px;
+}
+
+.painting_space {
+    height: 84vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+#clear {
+    background-image: url(./pics/clear2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 87px;
+}
+
+img {
+    height: 50px;
+    position: absolute;
+    right: 0%;
+}
+
+.form-control {
+    display: inline-block;
+    width: 65px;
+}
+
+.inputs {
+    margin-top: 15px;
+}
+
+.sizeControl {
+    margin-top: 15px;
+}
